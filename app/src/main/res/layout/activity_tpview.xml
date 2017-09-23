@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42A5F5"
+    tools:context=".Resume">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="Language and Technologies"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Java SE, Java EE, Jasper Reporting, Java Remote Method Invocation (RMI), JSP, Servlet, JavaScript, HTML5, CSS, SQL, Android"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="Design Patterns"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Singleton Design Pattern, Facade Design Pattern , Factory Design Pattern, Observer Design Pattern ,Reservation Design Pattern, MVC Design Pattern, Read-Write Locks "
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="Databases"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="MySQL, SQLite, MSSQL, Java file writing (Java file writing as data storing method) "
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="Tools"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="NetBeans, Dreamweaver, MySQL Workbench, Android Studio, Eclipse"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

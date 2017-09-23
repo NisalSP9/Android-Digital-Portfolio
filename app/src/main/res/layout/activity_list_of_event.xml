@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42A5F5"
+    tools:context="com.android.example.cis.digitalportfolio.ListOfEvent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="#42A5F5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#42A5F5"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="Roboto"
+                android:onClick="showResume"
+                android:text="Resume"
+                android:textAllCaps="false"
+                android:textColor="#212121"
+                android:textSize="24sp" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="Roboto"
+                android:onClick="showCG"
+                android:text="Career Goals"
+                android:textAllCaps="false"
+                android:textColor="#212121"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="Roboto"
+                android:onClick="showEx"
+                android:text="Work Experience"
+                android:textAllCaps="false"
+                android:textColor="#212121"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="Roboto"
+                android:onClick="showTP"
+                android:text="Technology Proficiency"
+                android:textAllCaps="false"
+                android:textColor="#212121"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="Roboto"
+                android:onClick="showAQ"
+                android:text="Academic Qualifications"
+                android:textAllCaps="false"
+                android:textColor="#212121"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="Roboto"
+                android:onClick="showProQ"
+                android:text="Professional Qualifications"
+                android:textAllCaps="false"
+                android:textColor="#212121"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="Roboto"
+                android:onClick="showProject"
+                android:text="Projects"
+                android:textAllCaps="false"
+                android:textColor="#212121"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="Roboto"
+                android:onClick="showPublication"
+                android:text="Publication"
+                android:textAllCaps="false"
+                android:textColor="#212121"
+                android:textSize="24sp" />
+
+
+            <Button
+                android:onClick="showContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="Roboto"
+                android:text="Contact"
+                android:textAllCaps="false"
+                android:textColor="#212121"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

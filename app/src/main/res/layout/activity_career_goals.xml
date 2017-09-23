@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42A5F5"
+    tools:context=".Resume">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="Career Goals"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Since I was kid I always wanted to become software Engineer someday so I will be working on that direction for next few years. But further more I will see the 5 years ahead story about myself which is becoming software architect someday. But whatever it takes I’m not thinking of staying for software industry for more than 10-15 years because my ultimate goal to my future is start my own company. I still haven’t decide that which kind of industry I will be involving but no matter how hard to start it I will be starting my own business which I can be more free and relaxed.  "
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
